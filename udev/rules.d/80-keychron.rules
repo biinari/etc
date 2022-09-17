@@ -1,0 +1,1 @@
+SUBSYSTEMS=="input", ATTRS{name}=="Keychron K2", RUN+="echo 2 | tee /sys/module/hid_apple/parameters/fnmode"
